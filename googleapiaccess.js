@@ -54,7 +54,7 @@ function loadAuth2() {
 function initAuth2() {
     return gapi.auth2.init({
             client_id: '193933805587-dcsc1n7ctlo4urv08bu4l4ltijiv6sim.apps.googleusercontent.com',
-            scope: 'profile https://www.googleapis.com/auth/pubsub https://www.googleapis.com/auth/cloudplatformprojects.readonly'
+            scope: 'profile https://www.googleapis.com/auth/pubsub'
         }).then() // The API does not return a Promise but an object that returns a Promise from its .then() function
 }
 
